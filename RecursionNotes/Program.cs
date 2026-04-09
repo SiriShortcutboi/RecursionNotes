@@ -27,7 +27,7 @@ class Program
         //recursive call
         return number * FactorialSolver(number - 1);
         //the method never quite finishes but the - 1 keeps going, until 
-        // it gets to 1, and then returns anywat because that return is true
+        // it gets to == 1, and then returns anyway because that return is true
 
         //until it gets to true it goes, and then it quickly unwinds, 
         // now knowing what the answer is to each of them  
